@@ -29,3 +29,21 @@ _Also added the STASH folder for any extraneous files such as .zip_
 ### Insert the github files into the folder you just created
 ![Image of internals of the new folder](https://github.com/Engineering-Applied/Adafruit-Thermal-Printer-Library/blob/master/media/images/Internals%20of%20Directory.png)
 
+_The build folder is not provided as you must create it yourself per the following instructions_
+
+## Setting up the build per Official RPi Pico Instructions
+(https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf)
+
+1. Modify the Printer_Test.c file to your liking
+    _Print commands are found through the official Adafruit learn guide_
+    _Pico printing commands are found through the RPi Pico documentation website_
+2. Copy the pico_sdk_import.cmake file from the external folder in your pico-sdk installation to your test project folder.          
+    `$ cp ../pico-sdk/external/pico_sdk_import.cmake .`                
+3. Build the program with cmake (Version 3.13 or higher required)
+    `$ mkdir build<br/>
+     $ cd build<br/>
+     $ export PICO_SDK_PATH=../../pico-sdk<br/>
+     $ cmake ..<br/>
+     $ make `
+4. The
+
