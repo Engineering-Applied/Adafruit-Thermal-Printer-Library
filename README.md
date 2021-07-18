@@ -14,9 +14,18 @@ Adafruit invests time and resources providing this open source code.  Please sup
 Written by Limor Fried/Ladyada for Adafruit Industries, with contributions from the open source community.  Originally based on Thermal library from bildr.org
 MIT license, all text above must be included in any redistribution.
 
-Modified By: Engineering ByJosh
+Modified By: Engineering By Josh
 
 ## ////Raspberry Pi LIBRARY LOCATION////
-On your Linux box: (home directory)/pico/<Insert New Folder>/            *I used Printer_Test as my folder name for example*
+On your Linux box: (home directory)/pico/<_Insert New Folder_>/            
+*I used Printer_Test as my folder name for example*
 
-_Due to_
+_Due to my pico folder being on an external SSD my setup looks slightly different_
+
+_Also added the STASH folder for any extraneous files such as .zip_
+
+![Image of Main Directory]()
+
+### Insert the github files into the folder you just created
+![Image of internals of the new folder]()
+
