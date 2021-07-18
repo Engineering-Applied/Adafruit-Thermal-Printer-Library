@@ -2,7 +2,7 @@
 
 Official Adafruit Source Page: (http://adafruit.github.io/Adafruit-Thermal-Printer-Library/html/index.html)
 
-This is the setup for the RPi Pico with the Adafruit Thermal Printer.
+This is the setup for the RPi Pico with the Adafruit Thermal Printer.         
 Pick one up at --> https://www.adafruit.com/product/597
 These printers use TTL serial to communicate, 3 pins(RX/TX/Common Ground) are required.
 
