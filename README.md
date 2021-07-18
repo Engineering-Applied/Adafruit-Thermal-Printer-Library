@@ -27,5 +27,5 @@ _Also added the STASH folder for any extraneous files such as .zip_
 ![Image of Main Directory]()
 
 ### Insert the github files into the folder you just created
-![Image of internals of the new folder]()
+![Image of internals of the new folder](https://github.com/Engineering-Applied/Adafruit-Thermal-Printer-Library/blob/master/media/images/Internals%20of%20Directory.png)
 
