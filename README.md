@@ -24,7 +24,7 @@ _Due to my pico folder being on an external SSD my setup looks slightly differen
 
 _Also added the STASH folder for any extraneous files such as .zip_
 
-![Image of Main Directory]()
+![Image of Main Directory](https://github.com/Engineering-Applied/Adafruit-Thermal-Printer-Library/blob/master/media/images/Main%20Directory.png)
 
 ### Insert the github files into the folder you just created
 ![Image of internals of the new folder](https://github.com/Engineering-Applied/Adafruit-Thermal-Printer-Library/blob/master/media/images/Internals%20of%20Directory.png)
