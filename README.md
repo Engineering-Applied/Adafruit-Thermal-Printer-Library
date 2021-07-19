@@ -15,6 +15,7 @@ Written by Limor Fried/Ladyada for Adafruit Industries, with contributions from 
 MIT license, all text above must be included in any redistribution.
 
 Modified By: Engineering By Josh
+This setup works on the Raspberry Pi and Nvidia Jetson Nano
 
 ## ////Raspberry Pi LIBRARY LOCATION////
 On your Linux box: (home directory)/pico/<_Insert New Folder_>/            
