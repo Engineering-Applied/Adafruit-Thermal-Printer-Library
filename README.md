@@ -34,16 +34,23 @@ _The build folder is not provided as you must create it yourself per the followi
 ## Setting up the build per Official RPi Pico Instructions
 (https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf)
 
-1. Modify the Printer_Test.c file to your liking
-    _Print commands are found through the official Adafruit learn guide_
-    _Pico printing commands are found through the RPi Pico documentation website_
+1. Modify the Printer_Test.c file to your liking\
+    _Thermal Printer commands are found through the official Adafruit learn guide_\
+    (https://learn.adafruit.com/mini-thermal-receipt-printer)\
+    
+    _Pico Serial printing commands are found through the RPi Pico documentation website_\
+    (https://raspberrypi.github.io/pico-sdk-doxygen/group__hardware__uart.html)    
 2. Copy the pico_sdk_import.cmake file from the external folder in your pico-sdk installation to your test project folder.          
     `$ cp ../pico-sdk/external/pico_sdk_import.cmake .`                
-3. Build the program with cmake (Version 3.13 or higher required)
-    `$ mkdir build<br/>
-     $ cd build<br/>
-     $ export PICO_SDK_PATH=../../pico-sdk<br/>
-     $ cmake ..<br/>
-     $ make `
-4. The
+3. Build the program with cmake (Version 3.13 or higher required)\
+    `$ mkdir build`\
+`$ cd build`\
+`$ export PICO_SDK_PATH=../../pico-sdk`\
+`$ cmake ..`\
+`$ make `
+4. Press and hold the _BOOTSEL_ button on your RPi Pico while plugging it into your Raspberry Pi
+5. Place the _.UF2_ file from your build directory into your RPi Pico
+6. Enjoy your new Thermal Printer Interface with the RPi Pico
+
+### Feel free to ask any questions as this process was very confusing to figure out on my own
 
